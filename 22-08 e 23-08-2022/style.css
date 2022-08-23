@@ -1,0 +1,66 @@
+/* CSS da rengoku */
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: #050505;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+.container{
+text-align: center;
+justify-content: center;
+background-image: url(img\ rengoku/fire.gif);
+background-size: cover;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.list a{
+    text-decoration: none;
+    color: lightblue;
+   }
+
+   .list a:hover{
+    color: lightgreen;
+   }
+
+.video{
+text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+}
+
+
+/* CSS da hardwork */
+
+.container2{
+    text-align: center;
+    justify-content: center;
+    background-image: url(img\ rengoku/rocklee.gif);
+    background-size: cover;
+    height: 150vh;
+    padding:0;
+    margin:0;
+    }
+
+    .mapouter, .gmap_canvas{
+        text-align: center;
+    }
+
+    form{
+        flex-wrap: row;
+    }
